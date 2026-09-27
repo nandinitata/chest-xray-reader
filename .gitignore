@@ -1,0 +1,26 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# node
+node_modules/
+frontend/dist/
+
+# local screenshots / scratch
+_ui_*.png
+backend/tests/fixtures/_heatmap_out.png
+
+# data (download locally, don't commit)
+backend/eval/data/
+backend/eval/not_xrays/
+*.nii
+*.nii.gz
+
+# os
+.DS_Store
+
+# internal roadmap, not for the public repo
+PROJECTS_PLAN.md
